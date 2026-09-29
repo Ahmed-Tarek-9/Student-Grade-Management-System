@@ -1,72 +1,72 @@
 # Student Grade Management System
 
-A Java console-based application that manages the grades of 5 students across 3 subjects. The program allows users to enter student information, validates grade input, and provides various services for viewing and analyzing student performance[cite: 69].
+A Java console-based application that manages the grades of 5 students across 3 subjects. The program allows users to enter student information, validates grade input, and provides various services for viewing and analyzing student performance.
 
 ---
 
 ## Features
 
-- Enter names for 5 students[cite: 69].
-- Enter grades for 3 subjects per student[cite: 69].
-- Validate grade input (0–100 only)[cite: 69].
-- Display grades as both percentages and letter grades[cite: 69].
-- Search for a student by name[cite: 69].
-- Count the number of students who passed[cite: 69].
-- Calculate subject averages[cite: 69].
-- Find the highest grade in each subject[cite: 69].
-- Interactive menu-driven interface[cite: 69].
+- Enter names for 5 students.
+- Enter grades for 3 subjects per student.
+- Validate grade input (0–100 only).
+- Display grades as both percentages and letter grades.
+- Search for a student by name.
+- Count the number of students who passed.
+- Calculate subject averages.
+- Find the highest grade in each subject.
+- Interactive menu-driven interface.
 
 ---
 
 ## Menu Options
 
-1. Show all student names[cite: 69].
-2. Show all students' grades in each subject[cite: 69].
-3. Search for a student by name and display their grades[cite: 69].
-4. Show the number of passed students[cite: 69].
-5. Show the average grade for each subject[cite: 69].
-6. Show the highest grade in each subject[cite: 69].
-7. Exit the program[cite: 69].
+1. Show all student names.
+2. Show all students' grades in each subject.
+3. Search for a student by name and display their grades.
+4. Show the number of passed students.
+5. Show the average grade for each subject.
+6. Show the highest grade in each subject.
+7. Exit the program.
 
 ---
 
 ## Input Validation
 
 The program validates all grades entered by the user to ensure they are within the valid range:
-- Minimum grade: 0[cite: 69]
-- Maximum grade: 100[cite: 69]
+- Minimum grade: 0
+- Maximum grade: 100
 
-If an invalid grade is entered, the user is prompted to enter a valid value[cite: 69].
+If an invalid grade is entered, the user is prompted to enter a valid value.
 
 ---
 
 ## Grade Representation
 
 Grades are displayed as:
-- Percentage score[cite: 69]
-- Corresponding letter grade[cite: 69]
+- Percentage score
+- Corresponding letter grade
 
 ### Example Scale
 
 | Percentage | Letter Grade |
 | :--- | :--- |
-| ≥ 85 | A[cite: 69] |
-| ≥ 75 | B[cite: 69] |
-| ≥ 65 | C[cite: 69] |
-| ≥ 50 | D[cite: 69] |
-| < 50 | F[cite: 69] |
+| ≥ 85 | A |
+| ≥ 75 | B |
+| ≥ 65 | C |
+| ≥ 50 | D |
+| < 50 | F |
 
 ---
 
 ## Concepts Used
 
 This project was developed using the following Java concepts:
-- Variables and Data Types[cite: 69]
-- Conditional Statements (`if`, `switch`)[cite: 69]
-- Loops (`for`, `do-while`)[cite: 69]
-- Arrays and 2D Arrays[cite: 69]
-- Methods[cite: 69]
-- User Input (`Scanner`)[cite: 69]
+- Variables and Data Types]
+- Conditional Statements (`if`, `switch`)
+- Loops (`for`, `do-while`)
+- Arrays and 2D Arrays
+- Methods
+- User Input (`Scanner`)
 
 ---
 
